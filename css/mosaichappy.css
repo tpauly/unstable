@@ -1,0 +1,97 @@
+        /* mosaic grid */
+        #mosaic li {list-style: none; }
+        .photo {z-index: 998;}
+        .content {z-index: 999;}
+        .m1a{position: relative; height: 100px; width: 100px;}
+        .m1b{position: relative; height: 100px; width: 100px; left:100px;}
+        .m1c{position: relative; height: 100px; width: 100px; left:200px;}
+        .m1d{position: relative; height: 100px; width: 100px; left:300px;}
+        .m1e{position: relative; height: 100px; width: 100px; left:400px;}
+        .m1f{position: relative; height: 100px; width: 100px; left:500px;}
+        .m2a{position: relative; height: 100px; width: 100px; top:100px;}
+        .m2b{position: relative; height: 100px; width: 100px; top:100px; left:100px;}
+        .m2c{position: relative; height: 100px; width: 100px; top:100px; left:200px;}
+        .m2d{position: relative; height: 100px; width: 100px; top:100px; left:300px;}
+        .m2e{position: relative; height: 100px; width: 100px; top:100px; left:400px;}
+        .m2f{position: relative; height: 100px; width: 100px; top:100px; left:500px;}
+        .m3a{position: relative; height: 100px; width: 100px; top:200px;}
+        .m3b{position: relative; height: 100px; width: 100px; top:200px; left:100px;}
+        .m3c{position: relative; height: 100px; width: 100px; top:200px; left:200px;}
+        .m3d{position: relative; height: 100px; width: 100px; top:200px; left:300px;}
+        .m3e{position: relative; height: 100px; width: 100px; top:200px; left:400px;}
+        .m3f{position: relative; height: 100px; width: 100px; top:200px; left:500px;}
+        .m4a{position: relative; height: 100px; width: 100px; top:300px;}
+        .m4b{position: relative; height: 100px; width: 100px; top:300px; left:100px;}
+        .m4c{position: relative; height: 100px; width: 100px; top:300px; left:200px;}
+        .m4d{position: relative; height: 100px; width: 100px; top:300px; left:300px;}
+        .m4e{position: relative; height: 100px; width: 100px; top:300px; left:400px;}
+        .m4f{position: relative; height: 100px; width: 100px; top:300px; left:500px;}
+        .m5a{position: relative; height: 100px; width: 100px; top:400px; top:400px; background-color: rgba(153, 102, 51, 0.25);}
+        .m5b{position: relative; height: 100px; width: 100px; top:400px; left:100px;}
+        .m5c{position: relative; height: 100px; width: 100px; top:400px; left:200px;}
+        .m5d{position: relative; height: 100px; width: 100px; top:400px; left:300px;}
+        .m5e{position: relative; height: 100px; width: 100px; top:400px; left:400px;}
+        .m5f{position: relative; height: 100px; width: 100px; top:400px; left:500px;}
+
+        #mosaic .highlight-2col {z-index: 999;
+        padding: 6px 4px 2px 4px; margin: 4px; height: 75px; width: 180px; background-color: #fcf8c6; color: #000000;
+        border-color: #6b4d2e; border-width: 4px; border-style: solid; border-radius: 10px;
+        }
+        #mosaic .highlight-2col-long {z-index: 999;
+        padding: 6px 4px 2px 4px; margin: 4px; height: 140px; width: 180px; background-color: #fcf8c6;
+        border-color: #6b4d2e; border-width: 4px; border-style: solid; border-radius: 10px;
+        }
+        #mosaic .highlight-3col {z-index: 999;
+        padding: 6px 4px 2px 4px; margin: 4px; width: 40%; color: #000000; background-color: #ffffff;
+        border-color: #6b4d2e; border-width: 4px; border-style: solid; border-radius: 10px;
+        }
+        #mosaic .highlight-3col-long {z-index: 999;
+        padding: 6px 4px 2px 4px; margin: 4px; width: 40%; color: #000000; background-color: #ffffff;
+        border-color: #6b4d2e; border-width: 4px; border-style: solid; border-radius: 10px;
+        }
+        #mosaic .caption-2col {z-index: 999;
+        padding: 6px 4px 8px 4px; margin: 90px 8px 0 8px; height: 1em; width: 178px; background-color: #fcf8c6; border-radius: 10px;
+        font-family: NeutraSlabBold, HelveticaNeue-Bold, Helvetica, Arial-Rounded, Arial, sans-serif; text-align: center; color: #6b4d2e;
+        }
+        #mosaic .caption-2col-long {z-index: 999;
+        padding: 6px 4px 8px 4px; margin: 90px 8px 0 8px; height: 140px; width: 178px; background-color: #fcf8c6; border-radius: 10px;
+        font-family: NeutraSlabBold, HelveticaNeue-Bold, Helvetica, Arial-Rounded, Arial, sans-serif; text-align: center; color: #6b4d2e;
+        }
+        #mosaic .captionTop-2col {z-index: 999;
+        padding: 6px 4px 8px 4px; margin: -20px 8px 0 8px;; height: 1em; width: 178px; background-color: #fcf8c6; border-radius: 10px;
+        font-family: NeutraSlabBold, HelveticaNeue-Bold, Helvetica, Arial-Rounded, Arial, sans-serif; text-align: center; color: #6b4d2e;
+        }
+        #mosaic .captionTop-3col {z-index: 999;
+        padding: 6px 4px 8px 4px; margin: -20px 8px 0 8px;; height: 1em; width: 278px; background-color: #fcf8c6; border-radius: 10px;
+        font-family: NeutraSlabBold, HelveticaNeue-Bold, Helvetica, Arial-Rounded, Arial, sans-serif; text-align: center; color: #6b4d2e;
+        }
+        #mosaic .caption-3col {z-index: 999;
+        padding: 6px 4px 2px 4px; margin: 4px; height: 50px; width: 280px; color: #000000; background-color: #ffffff;
+        border-color: #6b4d2e; border-width: 4px; border-style: solid; border-radius: 10px;
+        }
+        /* rave reviews */
+        #mosaic .rave {z-index: 999; padding: 8px 2px 2px 2px; margin: 4px; height: 74px; font-family: NeutraSlabBold, HelveticaNeue-Bold, Helvetica, Arial-Rounded, Arial, sans-serif; border-style: solid; border-width: 0px; background-color: #fcf8c6; text-align: center; outline: none; height: 82px;
+        }
+        /* order styling*/
+        #mosaic .order {color: #6b4d2e; line-height: 1.2em;
+        }
+        #mosaic .order li{font-size: 1.1em; padding-bottom: 2px; margin-left: 32px; list-style-type: decimal;
+        }
+        #mosaic .order-white {z-index: 999; padding: 6px 4px 2px 4px; margin: 4px; height: 75px; width: 180px; text-align: center; color: #000000; background-color: #ffffff;
+        border-color: #6b4d2e; border-width: 4px; border-style: solid; border-radius: 10px;
+        }
+        #mosaic .order-white-2row {z-index: 999; padding: 6px 4px 2px 4px; margin: 4px; height: 175px; width: 280px; text-align: center; color: #000000; background-color: #ffffff;
+        border-color: #6b4d2e; border-width: 4px; border-style: solid; border-radius: 10px;
+        }
+        #mosaic .order-white-2col {z-index: 999; padding: 6px 4px 2px 4px; margin: 4px; height: 75px; width: 180px; text-align: center;color: #000000; background-color: #ffffff; border-color: #6b4d2e; border-width: 4px; border-style: solid; border-radius: 10px;  -webkit-border-radius: 10px; border-radius: 10px;}
+        #mosaic .order-yellow {z-index: 999; padding: 8px 2px 2px 2px; height: 75px; width: 180px; margin: 4px; font-family: NeutraSlabBold, HelveticaNeue-Bold, Helvetica, Arial-Rounded, Arial, sans-serif; background-color: #fcf8c6; text-align: center; outline: none; border-color: #c2aacf; border-width: 4px; border-style: solid; border-radius: 10px;  -webkit-border-radius: 10px; border-radius: 10px;
+        }
+        #mosaic .order-yellow-2row {z-index: 999; padding: 8px 2px 2px 2px; height: 175px; width: 280px; margin: 4px; font-family: NeutraSlabBold, HelveticaNeue-Bold, Helvetica, Arial-Rounded, Arial, sans-serif; background-color: #fcf8c6; text-align: center; outline: none;
+            border-color: #c2aacf; border-width: 4px; border-style: solid; border-radius: 10px;  -webkit-border-radius: 10px; border-radius: 10px;
+        }
+        #mosaic .order-yellow-3col {z-index: 999; padding: 8px 2px 2px 2px; height: 75px; width: 280px; margin: 6px; font-family: NeutraSlabBold, HelveticaNeue-Bold, Helvetica, Arial-Rounded, Arial, sans-serif; line-height: 1.2em; background-color: #fcf8c6; text-align: center; outline: none; border-color: rgba(194,229,166,.5); border-width: 4px; border-style: solid; border-radius: 10px;
+        }
+        #mosaic .order-yellow-3col-long {z-index: 999; padding: 8px 2px 2px 2px; height: 175px; width: 280px; margin: 6px; font-family: NeutraSlabBold, HelveticaNeue-Bold, Helvetica, Arial-Rounded, Arial, sans-serif; line-height: 1.2em; background-color: #fcf8c6; text-align: center; outline: none; border-color: #c2aacf; border-width: 4px; border-style: solid; border-radius: 10px;
+        }
+        #mosaic .order-yellow-4col {z-index: 999; padding: 8px 2px 2px 2px; height: 75px; width: 380px; margin: 4px; font-family: NeutraSlabBold, HelveticaNeue-Bold, Helvetica, Arial-Rounded, Arial, sans-serif; background-color: #fcf8c6; text-align: center; outline: none; border-color: #c2aacf; border-width: 4px; border-style: solid; border-radius: 10px;  -webkit-border-radius: 10px; border-radius: 10px;
+        }

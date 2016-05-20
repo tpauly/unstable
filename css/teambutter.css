@@ -1,0 +1,63 @@
+/* design and layout complexities */
+@font-face {font-family: 'BryantBold'; src: url('http://www.theablebaker.com/bryant-bold-webfont.eot'); src: local('☺'), url('/Volumes/Macintosh HD/Users/tpauly/Dropbox/theablebaker/httpdocs/t/bryant-bold-webfont.woff') format('woff'), url('/Volumes/Macintosh HD/Users/tpauly/Dropbox/theablebaker/httpdocs/t/bryant-bold-webfont.ttf') format('truetype'), url('/Volumes/Macintosh HD/Users/tpauly/Dropbox/theablebaker/httpdocs/t/bryant-bold-webfont.svg#webfontDUACxpM9') format('svg'); font-weight: normal; font-style: normal;}
+@font-face {font-family: 'BryantRegular'; src: url('/Volumes/Macintosh HD/Users/tpauly/Dropbox/theablebaker/httpdocs/t/bryant-regular-webfont.eot'); src: local('☺'), url('/Volumes/Macintosh HD/Users/tpauly/Dropbox/theablebaker/httpdocs/t/bryant-regular-webfont.woff') format('woff'), url('/Volumes/Macintosh HD/Users/tpauly/Dropbox/theablebaker/httpdocs/t/bryant-regular-webfont.ttf') format('truetype'), url('/Volumes/Macintosh HD/Users/tpauly/Dropbox/theablebaker/httpdocs/t/bryant-regular-webfont.svg') format('svg'); font-weight: normal; font-style: normal;}
+
+html {background-color: #dcccb6;}
+
+body {
+	margin: 36px auto;
+	width: 90%;
+	background-color: #fffce1;
+	border-radius: 1.4em;
+	line-height: 1;
+	color:#6b4d2e; 
+	text-rendering: optimizeLegibility;
+	font: 100% BryantRegular, HelveticaNeue-Light, Arial-Rounded, Helvetica, Arial, sans-serif;
+	orphans: 2; 
+	widows: 2; 
+	text-decoration: none;
+}
+#page-wrapper {
+	margin: 0 auto 53px;
+	width: 93.75%;
+}
+#highlights {
+	float: right;
+	width: 62.8888889%;
+}
+#details {
+	float: left;
+	width: 36.7777778%;
+	clear: both;
+}
+
+#logo {
+	position: fixed;
+	bottom: 5%;
+	left: 2%;
+	z-index: 1;
+}
+.logo {
+	float: left;
+	margin-left: -10%;
+	width: 10%;
+	max-width: 80px;
+	padding: 0 3%;
+}
+header .headline {
+	padding: 2px;
+	margin: 1.5% 0;
+	float: left;
+	width: 92%;
+	max-width: 400px;
+	border: 2px solid #6b4d2e;
+	border-radius: 16px;
+	background: #f6f4d8;
+}
+header h1 {
+	padding: 3%;
+	border: 2px solid #6b4d2e;
+	border-radius: 12px;
+	background: #fffce1;
+	font-size: 1.6em;
+}

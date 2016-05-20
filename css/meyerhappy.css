@@ -1,0 +1,102 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* target ÷ context = result */
+* {
+	margin: 0; 
+	padding: 0;
+	font-style: normal; 
+	font-weight: normal;
+}
+html, body, div, span, applet, object, iframe, /* h1, h2, h3, h4, h5, h6 */ p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+/* 
+	margin: 0;
+	padding: 0;
+ */
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+li {
+	display: inline;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a, em, strong, i, cite, var, address {
+	font-family: BryantBold;
+}
+a {
+	text-decoration: none; color: inherit;
+}
+img, object {
+     max-width: 100%;
+}
+
+/* layout */
+nav a {
+letter-spacing: 0.3em;
+text-transform: lowercase;
+text-decoration: none;
+font-family: NeutraSlabDisplay;
+font-size: 1em;
+}
+nav a:hover {
+text-transform: uppercase;
+font-size: 0.75em;
+}
+h1, h2 {
+padding: 0.8em 5.33333333% 0;
+}
+h3, h4 {
+padding: 0.6em 5.33333333% 0;
+}
+p {
+padding: 0.4em 5.33333333% 0;
+}
+h1, h2, h3, h4 {
+font-family: BryantBold, BryantMedium, HelveticaNeue-Medium, Helvetica, Arial-Rounded, "Lucida Grande", Lucida, Verdana, sans-serif;
+color: #6b4d2e;
+}
+h1 {
+font: 1.5em/1.3em;
+}
+h2 {
+font: 1.35em/1.2em;
+}
+h3 {
+font: 1.2em/1.1em;
+}
+h4 {
+font: 1.2em/1.1em;
+}

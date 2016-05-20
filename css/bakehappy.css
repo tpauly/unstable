@@ -1,0 +1,398 @@
+/*
+@yellow=#fcf8c6 tints=#fffce1 + a dirty version: #f8f5dd;
+@brown=#6b4d2e tints=#b7996d + #dcccb6 (and maybe #907a62) rgba(107,77,46.5);
+@lavender=#c2aacf tints=#ddd1e6;
+@green=rgba(194,229,166,.4); rgba(0,149,67,.25); #bbd5a6
+*/
+/*
+major positioning ids
+*/
+#header {}
+#page-wrapper {margin: 0 auto; position: relative; width: 100%;}
+#logo {background: url(http://theunstablebaker.com/logos/theablelogo@2x.svg) no-repeat center;} */
+#top-navigation {}
+#content-wrapper {width: 100%;}
+#lead-story {background-color: #fffce1; border: 2px #6b4d2e solid;  border-radius: 10px;}
+#lead-story-bs {background: #c2aacf url(http://theunstablebaker.com/logos/hdr-bs.svg) no-repeat; border-radius: 10px;}
+#mosaic {background-color: #f8f5dd;}
+#archive-list {}
+#second-story{background-color: #6b4d2e;border: 2px #6b4d2e solid; border-radius: 10px;}
+#second-story-right{float: right; clear: right; background-color: #6b4d2e;border: 2px #6b4d2e solid; border-radius: 10px;}
+#second-story-wide{background-color: #6b4d2e;border: 2px #6b4d2e solid; border-radius: 10px;}
+#second-story-wide-green{background-color: rgba(194,229,166,.4);border: 2px #6b4d2e solid; border-radius: 10px;}
+#third-story {background-color: #c2aacf; padding: .5em; border: 2px #c2aacf solid; border-radius: 10px;}
+#third-story-left {background-color: #fffce1; padding: .5em; border: 2px #c2aacf solid; border-radius: 10px;}
+#third-story-wide {background-color: #fffce1; padding: .5em; border: 2px #c2aacf solid; border-radius: 10px;}
+#details {background-color: #fffce1; border: 1px #c2aacf solid; border-radius: 10px;}
+#footer {}
+.copyright {text-align: center; font-style: normal; }
+
+/* navigation styling */
+#top-navigation ul, #top-navigation li, #top-navigation a {display: inline-block; font: .9em/3em BryantMedium, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial-Rounded, Arial, sans-serif;}
+
+#bakery .bakery a, #cakes .cakes a, #cookies .cookies a, #pies .pies a, #about .about a, #specials .specials a, #order .order a, #gift .gift a, #archive .archive a, #shop .shop a, #signup .signup a {
+background: transparent url(http://theunstablebaker.com/logos/theableswirl-ghost.svg) no-repeat;
+cursor: default;
+}
+
+.bakery a:hover, .bakery a:focus, .cakes a:hover, .cakes a:focus, .cookies a:hover, .cookies a:focus, .pies a:hover, .pies a:focus, .about a:hover, .about a:focus, .theSpecial a:hover, .theSpecial a:focus, .specials a:hover, .specials a:focus, .order a:hover, .order a:focus, .signup a:hover, .signup a:focus, .shop a:hover, .shop a:focus {
+background: transparent url(http://theunstablebaker.com/logos/theableswirl.svg) no-repeat;}
+
+
+#footer .navigation ul, #footer .navigation li, #footer .navigation a {color: #6b4d2e; display: inline-block; font: .9em/3em BryantMedium, HelveticaNeue-Light, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial-Rounded, Arial, sans-serif; border-bottom: 6px solid #fcf8c6; }
+#footer .navigation a:hover, #footer .navigation a:focus {
+line-height: 30px;
+border-bottom: none;
+}
+/*
+content sections
+*/
+.body {font: .95em/1.1em BryantRegular, HelveticaNeue-Light, Arial-Rounded, Helvetica, Arial, sans-serif; color:#6b4d2e; orphans: 2; widows: 2; text-decoration: none;}
+h1 {font: 1.4em/1.3em BryantBold, BryantMedium,HelveticaNeue-Medium, Helvetica, Arial-Rounded, Arial; color: #6b4d2e;}
+#lead-story h1 {display: inline; line-height: 1.4em;padding: 0px 4px 0 8px;}
+#lead-story-bs h1 {font: 32px/1em BryantBold, BryantMedium, HelveticaNeue-Medium, Helvetica, Arial-Rounded, Arial;  padding:28px 20px 0 160px;}
+#lead-story-bs h1 .h1-highlight {font: 48px/.9em BryantBold, BryantMedium,HelveticaNeue-Medium, Helvetica, Arial-Rounded; color: #fcf8c6;}
+#lead-story h1+p {display: inline;}
+#details h1 + p:first-line {font: 1.2em/1.1em BryantBold, BryantMedium, HelveticaNeue-Medium, Helvetica, Arial-Rounded, Arial, sans-serif;}
+#details h1+p {margin: 0;}
+#details h1 {line-height: 1.2em; padding: 3px 0 0 0}
+#third-story-left h1, #third-story-left h2, #third-story-left  h3, #third-story-left p {
+text-align: center;}
+h2 {font: 1.3em/1.4em NeutraSlabBold, HelveticaNeue-Bold, Helvetica, Arial-Rounded, Arial, sans-serif; color: #6b4d2e;}
+.two-line h2 {padding-top: 0.3em; line-height: .9em;}
+#lead-story h2{font: 1.2em/1.3em NeutraSlabBold, HelveticaNeue-Bold, Helvetica, Arial-Rounded, Arial, sans-serif;
+padding: 0px 6px 0 6px;}
+#details h2 {line-height: 1.1em; margin: 12px 0 0 0;}
+#details h2+p {margin: 0;}
+#details h2 + p:first-line {font: 1.2em/1.1em BryantBold, BryantMedium, HelveticaNeue-Medium, Helvetica, Arial-Rounded, Arial, sans-serif;}
+#details .box-highlight h2, #details .box-highlight-brown h2 {margin-top: 0;}
+#details .box-highlight h2+p, #details .box-highlight-brown h2+p {margin: 0;}
+#second-story h2, #second-story-right h2, #second-story-right-180 h2, #second-story-wide h2, #second-story-wide-green h2 {color: #c2aacf;
+margin: .5em;}
+h3 {font: 1.1em/1em NeutraSlabBold, HelveticaNeue-Medium, Helvetica, Arial-Rounded; color: #6b4d2e;}
+.two-line h3{line-height: 1.3em;}
+#second-story h3, #second-story-right h3, #second-story-right-180 h3, #second-story-wide h3, #second-story-wide-green h3 {font: 1.3em/1.1em NeutraSlabBold, HelveticaNeue-Medium, Helvetica, Arial-Rounded, Arial, sans-serif;
+color: #fcf8c6;
+padding: 4px 6px 0 6px;}
+#third-story ul {
+margin-bottom: .7em;
+font-size: 1.05em;
+line-height: 1.15em;
+}
+#third-story h3 {
+font-size: 1.2em;
+}
+#details h3 {font: 1.1em/1em NeutraSlabLight, HelveticaNeue-Medium, Helvetica, Arial-Rounded; margin-top: 1em;}
+#details .box-highlight h3, #details .box-highlight-brown h3 {margin-top: 0; font: 1.1em/1em NeutraSlabLight, HelveticaNeue-Medium, Helvetica, Arial-Rounded;}
+#details .box-highlight h3+p, #details .box-highlight-brown h3+p {margin: 0;}
+.highlight-2col h3, .highlight-3col h3 {font: 1.2em/1em NeutraSlabBold, HelveticaNeue-Bold, Helvetica, Arial-Rounded;}
+/*
+#third-story h3{font: 1.3em/1.2em NeutraSlabBold, HelveticaNeue-Medium, Helvetica, Arial-Rounded, Arial, sans-serif;
+color: black;
+padding: 4px 6px 0 6px;}
+*/
+h4 {margin-top: 1.5em;
+font: 1.3em/1.3em BryantMedium, HelveticaNeue-Regular, Helvetica, Arial-Rounded;}
+#details h4 {margin-top: 1em;}
+#mosaic h4 {margin-top: 0;}
+.salutation {font: 1.3em/1.3em BryantBold, BryantMedium, HelveticaNeue-Regular, Helvetica, Arial-Rounded;}
+#lead-story p {padding: 0px 6px 0 6px;
+font-family: BryantRegular, HelveticaNeue-Light, Arial-Rounded, Helvetica, Arial, sans-serif;}
+#details p {margin: 6px 0 0 0;}
+#details p.box-highlight {margin: .5em 0 0 0;}
+#details .box-highlight-brown h2, #details .box-highlight-brown h4, #details .box-highlight-brown p, #details .box-highlight-brown ol {color: white;}
+#mosaic .order-yellow p, #mosaic .order-yellow-2row p, #mosaic .order-yellow-4col p {font-family: BryantRegular, HelveticaNeue-Light, Arial-Rounded, Helvetica, Arial, sans-serif;}
+#mosaic p {color: #6b4d2e;}
+#accordion p {margin-bottom: 1em;}
+#second-story p, #second-story-right p, #second-story-right-180 p, #second-story-wide p, #second-story-wide-green p {font: 1.1em/1.2em NeutraSlabBold, HelveticaNeue-Regular, Helvetica, Arial-Rounded;
+color: #ddd1e6;
+padding: 0px 6px 0 6px;}
+h1>a {text-decoration: none;
+color: #6b4d2e;
+font: 1em/1em NeutraSlabBold, HelveticaNeue-Regular, Helvetica, Arial-Rounded, Arial, sans-serif;}
+a {text-decoration: none;
+color: #6b4d2e;
+font: .9375em/1em NeutraSlabBold, HelveticaNeue-Regular, Helvetica, Arial-Rounded, Arial, sans-serif;}
+a:hover, a:focus {color:black}
+.rave a {border-bottom: 3px;
+border-bottom-color: #c2aacf;
+border-bottom-style: solid;}
+#details a {
+border-bottom: solid 2px #c2aacf;}
+#details a:focus, #details a:hover {
+border-bottom-color: #fcf8c6;}
+#details .indent6 a {border-bottom: 3px;
+border-bottom-color: #ddd1e6;
+border-bottom-style: solid;}
+#details .box-highlight a {border-bottom: 3px;
+border-bottom-color: #fcf8c6;
+border-bottom-style: solid;}
+#details .box-highlight-brown a {border-bottom: 3px;
+border-bottom-color: #fcf8c6;
+border-bottom-style: solid;
+color: #fcf8c6;}
+#second-story a, #second-story-right a, #second-story-right-180 a, #second-story-wide a, #second-story-wide-green a {
+border-bottom: 3px;
+border-bottom-color: #fcf8c6;
+border-bottom-style: solid;
+font: 1.1em/1.2em NeutraSlabBold, HelveticaNeue-Regular, Arial-Rounded, Arial, sans-serif;
+color: #fcf8c6;}
+#details cite {text-align: right;
+color: #6b4d2e;
+font-style: normal;
+font-weight: normal;
+font: 1em/1.125em NeutraSlabBold, HelveticaNeue-Light, Helvetica-Rounded, Arial-Rounded, Arial;}
+#mosaic .content a {
+font: 1.4em/1.3em BryantBold, BryantMedium,HelveticaNeue-Medium, Helvetica, Arial-Rounded, Arial;
+border-bottom: solid 2px #6b4d2e;}
+#mosaic .content a:hover, #mosaic content a:focus {
+border-bottom-color: #000;}
+#mosaic li.content.order-yellow-3col-long a {border-bottom: 3px; border-bottom-color: #6b4d2e; border-bottom-style: solid;
+font: 1.1em/1.2em NeutraSlabBold, HelveticaNeue-Regular, Arial-Rounded, Arial, sans-serif; color: #6b4d2e;}
+#mosaic li.content.order-yellow-3col-long a:hover, #mosaic li.content.order-yellow-3col-long a:focus {border-bottom: none; color: #000000;}
+#mosaic cite a {font-style: normal; font-weight: normal; font: 1em/1.5em NeutraSlabBold, HelveticaNeue-Bold, Helvetica, Arial-Rounded, Arial;}
+#mosaic cite {color: #6b4d2e; font-style: normal; font-weight: normal; font: 1.125em/1.375em NeutraSlabBold, HelveticaNeue-Bold, Helvetica, Arial-Rounded, Arial;}
+#mosaic blockquote {font-size: 1.375em; line-height: 1.125em; display: inline; text-align: center; }
+#details ul {margin: 0 .5em;}
+#details ul.last {padding-bottom: 1em;}
+#details ol {margin: 0 .5em;}
+#details ol.last {padding-bottom: 1em;}
+#second-story ul, #second-story-right ul, #second-story-wide ul, #second-story-wide-green ul {font: 1.1em/1.2em NeutraSlabBold, HelveticaNeue-Regular, Helvetica, Arial-Rounded, Arial;
+color: #c2aacf;
+padding: 0 24px 0 18px;}
+#second-story ol, #second-story-right ol, #second-story-wide ol, #second-story-wide-green ol {display: block;
+font: 1.1em/1.2em NeutraSlabBold, HelveticaNeue-Regular, "Helvetica Neue", Helvetica, Arial-Rounded;
+color: #c2aacf;
+padding: 0 24px 0 18px;}
+#second-story .text-highlight, #second-story-right .text-highlight, #second-story-right-180 .text-highlight, #second-story-wide .text-highlight, #second-story-wide-green .text-highlight {font: 1.1em/1.2em NeutraSlabBold, HelveticaNeue-Bold, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial-Rounded, Arial; color: #fcf8c6;}
+#lead-story li{line-height: .8em;
+display: list-item;
+list-style-type: none;
+padding: 2px 4px 0 8px;}
+#lead-story li.first {display: list-item;
+padding: 0px 48px 0 8px;}
+#mosaic li {display: list-item;}
+#mosaic li.first {display: list-item;}
+#second-story li {margin-left: 18px;
+display: list-item;
+color: #c2aacf;}
+#second-story li.first {margin-left: 18px;
+display: list-item;
+color: #c2aacf;}
+.dessertName {font: 1.1em/1.2em NeutraSlabBold, HelveticaNeue-Bold, Helvetica, Arial-Rounded, Arial; color: #fcf8c6;}
+.indent6 { padding-left: 6px; }
+.indent12 { padding-left: 12px; }
+.text-highlight {font-size: 1.1em;
+font-family: NeutraSlabBold, HelveticaNeue-Regular, Helvetica, Arial-Rounded, Arial;}
+#mosaic .text-highlight {font-size: 1em;}
+#details .text-highlight {font-size: 1em;
+font-family: BryantMedium, HelveticaNeue-Light, Helvetica, Arial-Rounded, Arial;}
+#lead-story .priceHighlight, #details .priceHighlight {font: 1.1em/1.5em NeutraSlabBold, HelveticaNeue-Regular, Helvetica, Arial-Rounded, Arial; color: #6b4d2e; }
+
+/* details sidebar */
+#details .box-highlight {padding: 8px; background-color: #ddd1e6; border-radius: 10px;}
+#details .box-highlight-brown {padding: 8px; background-color: #6b4d2e; border-radius: 10px;}
+p.box-highlight+table.pricelist {margin-top: 1em;}
+
+/* table styles */
+#details table {width: 262px; /* padding: 8px;  */border-spacing: 0; background-color: #fcf8c6; border-radius: 10px; border: solid; border-width: 1px; border-color: #6b4d2e; }
+#second-story table, #second-story-right table, #second-story-wide table, #second-story-wide-green table {width: 380px; margin: 6px 6px 8px 6px ; border-spacing: 0; background-color: #fcf8c6; border-radius: 10px; border: solid; border-width: 1px; border-color: #6b4d2e; }
+/* pricelist elements */
+.pricelist thead {font-family: NeutraSlabBold, HelveticaNeue-Bold, Helvetica, Arial-Rounded, Arial, sans-serif; font-size: 16px; line-height: 16px; color: #6b4d2e;}
+.pricelist tfoot {font-size: 11px; line-height: 12px; color: #6b4d2e; text-align: center;}
+.pricelist {font-family: NeutraSlabBold, HelveticaNeue-Regular, Helvetica, Arial-Rounded, Arial, sans-serif; font-size: 13px; line-height: 12px;margin-bottom: 1.5em;}
+.pricelist td.first{border-top: solid; border-top-width: 1px; border-top-color: #6b4d2e;}
+.pricelist td.last{padding-bottom: 8px;}
+.pricelist td {padding: 6px 4px 0 10px;}
+/* .pricelist td.nested {padding: 2px 4px 0 16px;} */
+/* .pricelist td.price .nested{padding: 2px 4px 0 10px;} */
+.pricelist tr:hover, .pricelist tr:focus, .pricelist tr:active {background-color: #fffce1;}
+.pricelist thead tr:hover, .pricelist thead tr:focus, .pricelist tfoot tr:hover, .pricelist tfoot tr:focus, .pricelist ul:hover, .pricelist ul:focus {background-color: transparent;}
+.dessert {width: 140px; text-align: left; vertical-align: top}
+.pricelist td.dessert-nested {padding: 3px 4px 0 16px;}
+.pricelist td.dessert-nested-last {padding: 3px 4px 8px 16px;}
+.price {width: 40px; text-align: left; vertical-align: top}
+.pricelist td.price-nested {padding: 3px 4px 0 10px;}
+.pricelist td.price-nested-last {padding: 3px 4px 8px 10px;}
+
+/* hours elements */
+.hours thead {font-family: NeutraSlabBold, HelveticaNeue-Bold, Helvetica, Arial-Rounded, Arial, sans-serif; font-size: 18px; line-height: 16px; color: #6b4d2e;}
+.hours tfoot {font-size: 11px; line-height: 12px; color: #6b4d2e; text-align: center;}
+.hours {font-family: NeutraSlabBold, HelveticaNeue-Regular, Helvetica, Arial-Rounded, Arial, sans-serif; font-size: 14px; line-height: 13px;margin-bottom: 1.5em;}
+.hours td.first{border-top: solid; border-top-width: 1px; border-top-color: #6b4d2e;}
+.hours td.last{padding-bottom: 8px;}
+.hours td {padding: 6px 4px 0 10px;}
+.hours tr:hover, .hours tr:focus, .hours tr:active {background-color: #fffce1;}
+.hours thead tr:hover, .hours thead tr:focus, .hours tfoot tr:hover, .hours tfoot tr:focus, .hours ul:hover, .hours ul:focus {background-color: transparent;}
+.day {width: 140px; text-align: left; vertical-align: top}
+.hours td.day-nested {padding: 3px 4px 0 16px;}
+.hours td.day-nested-last {padding: 3px 4px 8px 16px;}
+.hour {width: 90px; text-align: left; vertical-align: top}
+.hours td.price-nested {padding: 3px 4px 0 10px;}
+.hours td.price-nested-last {padding: 3px 4px 8px 10px;}
+
+.transparent50 {filter:alpha(opacity=50);
+-moz-opacity:0.5;
+-khtml-opacity: 0.5;
+opacity: 0.5;}
+.right {text-align: right;}
+
+/*------------------------------------*\
+new styling starts here
+\*------------------------------------*/
+#second-story table h4 {margin-top: 0;
+}
+#second-story td {font: 1.1em/1.25em NeutraSlabBold;
+}
+thead {padding: 0; margin: 0;
+}
+#details td {font-size: 1.1em;line-height: 1.1em;
+}
+#details h4 {line-height: 1em; padding: 0px; margin: 0;
+}
+#details .dessert {font-size: 1.3em;}
+#details .price {font-size: 1.2em;}
+#mosaic .highlight-3col {}
+#mosaic .highlight-3col h1 {font-size: 1.7em; font-family: NeutraSlabBold;}
+#lead-story-bs {background: url(http://www.theablebaker.com/i/hdr-SPD13.png);}
+#details, #second-story {border: none;}
+#footer .navigation a:hover, #footer .navigation a:focus {background: #999; /* for non-css3 browsers */filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccc', endColorstr='#9CCEEB'); /* for IE */
+background: -webkit-gradient(linear, left top, left bottom, from(#c3e0a6), to(#F3F9ED)); /* for webkit browsers */background: -moz-linear-gradient(top, #ca0000, #aaa); /* for firefox 3.6+ */line-height: 30px;border-radius: 5px;}
+#logo {background: url(http://www.theablebaker.com/i/logos/spd-/logos/theablelogo.png) no-repeat center top;}
+/*------------------------------------*\
+NARROW
+\*------------------------------------*/
+/*
+CSS for tablets and narrower devices
+*/
+@media screen and (max-width: 440px) {
+
+/*
+#header {display: none;}
+#page-wrapper {margin: 0 auto; position: relative; width: 900px;}
+#logo {display: none;}
+#top-navigation {top: 10px; left: -580px; position: relative; font-size: 10px; height: 40px; text-align: center; width: 260px;}
+#lead-story-bs {top: 90px;left: -30px; position: relative; width: 600px; float: right; height: 96px; margin-bottom: 4px; background: url(http://www.theablebaker.com/i/hdr-bake-mine-specials400.png) no-repeat;}
+#details {top: 100px; position: relative; clear: left; float: left; min-height: 394px; margin: 0 10px 0 10px; padding: 2px 8px 2px 8px; width: 380px;background-color: #fffce1; border: 1px #c2aacf solid; border-radius: 10px;}
+#details table {width: 380px; border-spacing: 2; background-color: #fcf8c6; border-radius: 10px; border: solid; border-width: 1px; border-color: #6b4d2e; margin-bottom: 6px;}
+#details td {padding-bottom: .4em;}
+#mosaic {top: 120px; position: relative; float: left; clear: both; min-height: 40px; width: 300px;}
+#mosaic li {display: run-in;}
+.m1a{position: relative; top:0px; left:20px; float: left; clear: both;}
+.m1b{position: relative; }
+.m1c{position: relative; }
+.m1d{position: relative; }
+.m1e{position: relative; top:120px; left:20px; float: left; clear: both;}
+.m1f{position: relative; }
+.m2a{position: relative; }
+.m2b{position: relative; }
+.m2c{position: relative; }
+.m2d{position: relative; }
+.m2e{position: relative; }
+.m2f{position: relative; }
+.m3a{position: relative; }
+.m3b{position: relative; }
+.m3c{position: relative; }
+.m3d{position: relative; top:240px; left:20px;}
+.m3e{position: relative; }
+.m3f{position: relative; }
+.m4a{position: relative; top:360px; left:20px;}
+.m4b{position: relative; top:300px; left:100px;}
+.m4c{position: relative; top:300px; left:200px;}
+.m4d{position: relative; top:300px; left:300px;}
+.m4e{position: relative; top:300px; left:400px;}
+.m4f{position: relative; top:300px; left:500px;}
+.m5a{position: relative; top:400px; top:400px; background-color: rgba(153, 102, 51, 0.25);}
+.m5b{position: relative; top:400px; left:100px;}
+.m5c{position: relative; top:400px; left:200px;}
+.m5d{position: relative; top:400px; left:300px;}
+.m5e{position: relative; top:400px; left:400px;}
+.m5f{position: relative; top:400px; left:500px;}
+
+#second-story{min-height: 78px; float: left; clear: both; position: relative; top:400px; left: 20px; width: 394px; margin: 10px 202px 6px 0; background-color: #6b4d2e;border: 2px #6b4d2e solid; border-radius: 10px;}
+#footer {position: relative; top: 400px; left: 20px; float: left; clear: both; text-align: center; height: 48px;}
+.copyright {position: relative; float: left; clear: both; top: 420px; left: 20px; text-align: center; font-style: normal; }
+}
+*/
+/*--- END NARROW ---*/
+
+
+/* from Specials page:
+html {background: url(http://www.theablebaker.com/i/hr/Lco-grp-mom-mono.jpg) 0 0 no-repeat}
+#lead-story-bs {width: 66.66%; float: right; height: 6em; margin-bottom: 4px; background: #6b4d2e; border-radius: 10px;}
+#lead-story-bs h1 {
+margin-left: 0em; padding-left: 0em;color: #fcf8c6;line-height: 2em;font-size: 2.3em;text-align: left;
+}
+#mosaic p {
+font: 1em/1.2em BryantBold, HelveticaNeue-Light, Arial-Rounded, Helvetica, Arial, sans-serif; color:#6b4d2e; orphans: 2; widows: 2; text-decoration: none;
+}
+#mosaic .order-yellow-3col {
+height:100px; width: 268; border-color: #6b4d2e;text-align: left;padding-left: 12px
+}
+#mosaic .order-yellow-3col-long {
+height:160px; border-color: #6b4d2e;
+}
+#mosaic .specials3 {
+z-index: 0; position: relative; top: -52px; left: 460px; padding: 2px; height: 72px; width: 124px; font-family: NeutraSlabBold, HelveticaNeue-Bold, Helvetica, Arial-Rounded, Arial, sans-serif; line-height: 1.2em; background-color: #fcf8c6; text-align: center; outline: none; border-color: rgba(194,229,166,1); border-width: 4px; border-style: solid; border-radius: 10px;
+}
+#mosaic .special4 {
+z-index: 9999; padding: 2px 0 2px 12px; margin-left: 60px; height: 48px; width: 210px; font-family: NeutraSlabBold, HelveticaNeue-Bold, Helvetica, Arial-Rounded, Arial, sans-serif; line-height: 1.2em; background-color: #fcf8c6; outline: none; border-color: rgba(194,229,166,1); border-width: 4px; border-style: solid; border-radius: 10px;
+}
+#mosaic .special5 {
+z-index:2222; position: relative; top: 230px; padding: 2px 0 2px 12px; height: 48px; width: 210px; margin: 6px; background-color: #fcf8c6; text-align: left; outline: none; border-color: rgba(194,229,166,1); border-width: 4px; border-style: solid; border-radius: 10px;
+}
+#mosaic .special5 h1, #mosaic .special4 h1,#mosaic .specials3 h1 {font: 1.6em/1.2em NeutraSlabBold, HelveticaNeue-Light, Helvetica Light, Helvetica, Arial-Rounded, Arial, sans-serif;
+
+}
+
+#second-story h2 {color:rgba(194,229,166,.8)}
+
+#details .box-highlight {background-color: rgba(194,229,166,1);}
+.two-line h2 {padding-top: 0.3em; line-height: .9em;}
+#second-story table {
+font: 1.3em/1.6em BryantBold,AvenirNext-Bold;
+}
+tr:nth-child(odd) {
+background-color: #f8f5dd;
+}
+tr:nth-child(even) {
+background-color:#fffce1;
+}
+.pricelist tr:hover, .pricelist tr:focus, .pricelist tr:active {background-color: #fcf8c6;}
+
+.baseline {position:relative;top:-.35em;font-size:.9em;}
+
+.cents {
+position: relative;
+font-size: 68%;
+top: -.3em;
+}
+.logomask img {
+mask: url(http://www.theablebaker.com/i/ab-k-500.png) center center;
+-webkit-mask: url(http://www.theablebaker.com/i/ab-k-500.png) top left / cover;
+-o-mask: url(http://www.theablebaker.com/i/ab-k-500.png) top left / cover;
+-ms-mask: url(http://www.theablebaker.com/i/ab-k-500.png) top left / cover;}
+.photo img {border-radius:1em; border: solid #dcccb6 4px;}
+.text {font-family:BryantMedium, HeveticaNeue, Georgia; font-size: 16px; line-height: 18px;}
+em {font-size: 1.3em; line-height: 18px;}
+.pricelist td {padding-bottom: .4em;}
+#details .dessert, #details .price {font-size:1.6em;}
+#details table {border:none;}
+#details .description {margin-top: -1em;padding: 0 0 .8em .5em;font: 1.15em/1.2em BryantBold;}
+#second-story {
+top: -9em
+}
+#second-story .price {font-family: NeutraSlabDisplay;}
+#second-story .description {margin-top: -1em;padding: 0 0 .5em;font: .7em/1.2em Bryant-Regular;}
+#pricingTable td {
+padding: .3em .3em 0 .3em;
+}
+
+#pricingTable tr.first {
+color: fuchsia;
+margin-top: 0;
+}
+#page-wrapper .logo {
+background: none;
+}
+*/
